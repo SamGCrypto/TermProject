@@ -8,11 +8,15 @@ namespace TermProject.Models
     {
         //EF will instruct the database to automatically generate this value
         public int Id { get; set; }
+        [Column]
         [Required(ErrorMessage="List a monsters name")]
+        [StringLength(50,ErrorMessage ="You have reached the maximum characters, contact Admins if monster is new species.")]
         public string MonsterName { get; set;}
+        [Column]
         [Required(ErrorMessage ="Please enter the amount of monsters")]
         [Range(1,1000, ErrorMessage ="Please enter an amount between 1 and 1000, if there is more alert emergency personnel")]
         public int? MonsterCount { get; set; }
+        [Column]
         [Required(ErrorMessage = "Please enter in threat level rating")]
         [Range(1, 10, ErrorMessage = "Rating must be between one and ten.")]
         public int? MonsterThreatLvl {  get; set; }

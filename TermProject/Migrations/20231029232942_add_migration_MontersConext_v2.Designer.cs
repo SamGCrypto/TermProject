@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TermProject.Models;
 
@@ -11,9 +12,10 @@ using TermProject.Models;
 namespace TermProject.Migrations
 {
     [DbContext(typeof(MonstersContext))]
-    partial class MonstersContextModelSnapshot : ModelSnapshot
+    [Migration("20231029232942_add_migration_MontersConext_v2")]
+    partial class add_migration_MontersConext_v2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
