@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TermProject.Data;
+using TermProject.Models;
+
 
 namespace TermProject
 {
@@ -12,16 +14,16 @@ namespace TermProject
 
             // Add services to the container.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connectionString));
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddDbContext<ApplicationDbContext>(options=> options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddDbContext<MonstersContext>(options => options.UseSqlServer(connectionString));
             var app = builder.Build();
-
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -41,6 +43,14 @@ namespace TermProject
 
             app.UseAuthentication();
             app.UseAuthorization();
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.MapRazorPages();
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
             app.MapControllerRoute(
                 name: "default",

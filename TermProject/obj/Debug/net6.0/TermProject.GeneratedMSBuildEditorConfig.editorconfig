@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TermProject
+build_property.RootNamespace = TermProject
+build_property.ProjectDir = C:\Users\skyre\source\repos\TermProject\TermProject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\skyre\source\repos\TermProject\TermProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Monsters/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Monsters/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Monsters/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Monsters/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Monsters/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skyre/source/repos/TermProject/TermProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4sclsbatx1

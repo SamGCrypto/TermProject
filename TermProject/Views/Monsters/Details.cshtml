@@ -1,0 +1,36 @@
+﻿@model TermProject.Models.Monsters
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Monsters</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MonsterName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MonsterName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MonsterCount)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MonsterCount)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MonsterThreatLvl)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MonsterThreatLvl)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
